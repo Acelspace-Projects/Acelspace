@@ -1,0 +1,185 @@
+(footprint "Variable Resistor"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "ca585b4f-0ae4-4843-82a9-67c0c6d59770")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Variable Resistor"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1e99aef8-b6ab-4a0a-81a0-daff841c88b7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b77b1eb3-c71b-4219-afdf-094a03c1df33")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "54cd1354-9224-42c5-9de0-c5164e8eadc5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "832cb093-ad8b-4688-9c76-a806dce997d1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -2.032 -1.778)
+		(end -1.27 -1.778)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "4c92ba44-98a6-41aa-bb37-b65004a60ce8")
+	)
+	(fp_line
+		(start -2.032 -0.762)
+		(end -2.032 -1.778)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "28808913-032d-4cb4-8334-44840ef65af0")
+	)
+	(fp_line
+		(start -1.016 -0.762)
+		(end 1.016 -3.048)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "e9ec9c88-7de3-4170-95b2-29e2bf83ab66")
+	)
+	(fp_line
+		(start 1.016 -3.048)
+		(end 0.762 -3.048)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "5627530e-0242-454b-ae84-e163871c0bdc")
+	)
+	(fp_line
+		(start 1.016 -3.048)
+		(end 1.016 -2.794)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "b83a6e52-97eb-4542-aac9-ccd90af34953")
+	)
+	(fp_line
+		(start 2.032 -1.778)
+		(end 1.27 -1.778)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "09da3bba-2255-4e1b-834d-1bd2c71e0d20")
+	)
+	(fp_line
+		(start 2.032 -0.762)
+		(end 2.032 -1.778)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "35d12bd7-e1e2-47be-8ce8-0565076d45c7")
+	)
+	(fp_rect
+		(start -5 -2.5)
+		(end 5 2.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "405477e1-b206-4e5f-bf16-428f52813da2")
+	)
+	(fp_rect
+		(start -1.27 -2.54)
+		(end 1.27 -1.27)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "b34a5ffd-1afd-40df-af89-efe56a9e0bb1")
+	)
+	(pad "1" thru_hole circle
+		(at -2 0)
+		(size 1.524 1.524)
+		(drill 0.762)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "89666358-8f5c-4b72-a992-42c8c5886a27")
+	)
+	(pad "2" thru_hole circle
+		(at 0 0)
+		(size 1.524 1.524)
+		(drill 0.762)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2a64706b-0a5c-4e06-a414-0cccd94bfa97")
+	)
+	(pad "3" thru_hole circle
+		(at 2 0)
+		(size 1.524 1.524)
+		(drill 0.762)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1d040146-fe9b-47c7-8815-df91901e9835")
+	)
+)
